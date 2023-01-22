@@ -1,0 +1,77 @@
+
+/*-------------online---------*/
+.portail{
+  display: flex;
+}
+.online {
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.portailcontent{
+  flex: 6;
+}
+
+.online .box {
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+  background-color: #fff;
+  padding: 30px 20px;
+  transition: 0.5s;
+   align-items: center;
+  width: 200px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+     box-shadow: 2px 4px 10px 1px rgba(168, 166, 166, 0.47);
+     border-radius: 7px;
+}
+.online .img {
+  width: 100px;
+  height: 120px;
+  margin: auto;
+  position: relative;
+}
+.online img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.online h1 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 10px;
+  line-height: 30px;
+  text-align: center;
+}
+.online span {
+  background-color: #f8f8f8;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #1eb2a6;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+.online .box .show {
+  opacity: 0;
+}
+.online .box:hover {
+  background-color: #1eb2a6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.online .box:hover .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.online .box:hover h1 {
+  color: #fff;
+}
+/*-------------online---------*/
+@media screen and (max-width: 768px) {
+}

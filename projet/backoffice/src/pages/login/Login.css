@@ -1,0 +1,56 @@
+.login {
+    height: calc(100vh );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
+      ),
+      url("https://images.squarespace-cdn.com/content/v1/591bf4c96a49631e86449d50/1567502746971-1XABD70T9WA5WFI94TO7/Study+Area_Western_Academy_of_Beijing_3.png?format=750w");
+    background-size: cover;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .loginInput:focus {
+    outline: none;
+  }
+  
+  .loginButton {
+    margin-top: 12px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .loginButton:disabled{
+    cursor: not-allowed;
+    border-radius: 10px;
+    background-color: rgb(190, 214, 229);
+    color: rgb(49, 45, 45);
+  }

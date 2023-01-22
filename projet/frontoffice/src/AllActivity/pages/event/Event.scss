@@ -1,0 +1,31 @@
+
+  .singleContainer {
+    flex: 4;
+    
+    .top {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      
+      .datatableTitle{
+        width: 100%;
+        font-size: 24px;
+        color: gray;
+        font-size: 34px;
+        margin-left: 450px;
+    
+      }
+
+      .EventList{
+         margin-top: 20px;
+         margin-bottom: 30px;
+         display: flex;
+         justify-content: space-between;
+      }
+
+    }
+
+    
+  }
+

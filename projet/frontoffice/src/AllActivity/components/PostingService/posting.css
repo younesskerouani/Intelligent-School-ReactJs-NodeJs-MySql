@@ -1,0 +1,55 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 25px 20px 25px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      position: relative;
+     width: 300px;
+     border-radius: 7px;
+  }
+  .editButton {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    padding: 5px;
+    font-size: 14px;
+    color: #7451f8;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+  }
+
+  .deleteBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 3px;
+    font-size: 14px;
+    color: #f81f1fc4;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+  }
+
+  
+  .postImg {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+    
+  }
+  
+  .postInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .postTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

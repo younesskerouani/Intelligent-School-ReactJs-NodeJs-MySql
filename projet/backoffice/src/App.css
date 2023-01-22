@@ -1,0 +1,18 @@
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+  }
+
+  .container {
+    max-width: 85%;
+    margin: auto;
+  }
+
+  .rightside{
+    display: flex;
+  }
+
+  .flexSide{
+    flex:2;
+  }

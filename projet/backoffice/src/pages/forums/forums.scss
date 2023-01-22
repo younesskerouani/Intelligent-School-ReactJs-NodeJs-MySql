@@ -1,0 +1,38 @@
+.single {
+  display: flex;
+
+  .singleContainer {
+    flex: 6;
+
+   
+    .top {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      
+      .datatableTitle{
+        width: 100%;
+        font-size: 24px;
+        color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .link{
+          text-decoration: none;
+          color: green;
+          font-size: 16px;
+          font-weight: 400;
+          border: 1px solid green;
+          margin-right: 15px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+
+    }
+
+    
+  }
+}
